@@ -1,5 +1,5 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CC70F5C082A0F0AA668F8EA2F717D6855B248018",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b137c1b6-12cb-4b59-b8b1-84c40503a38a++1769",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "b137c1b6-12cb-4b59-b8b1-84c40503a38a++1769" : {
 
@@ -9,14 +9,14 @@
     "CC70F5C082A0F0AA668F8EA2F717D6855B248018" : 9223372036854775807,
     "b137c1b6-12cb-4b59-b8b1-84c40503a38a++1769" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E9DDA478-831F-43D5-8FDC-B54B2674A02A",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F97163D9-E3A3-4F12-9024-5D7A1682318C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "CC70F5C082A0F0AA668F8EA2F717D6855B248018" : "AdFalconSDK\/",
     "b137c1b6-12cb-4b59-b8b1-84c40503a38a++1769" : "..\/.."
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "AdFalconSDK",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/AdFalconSDK.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/Pods\/Pods.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/noqoush\/AdFalconSDK.git",
