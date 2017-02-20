@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdFalconSDK_Example' do
+  pod 'AdFalconSDK', :path => '../'
+
+  target 'AdFalconSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
