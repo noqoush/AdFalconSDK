@@ -1,0 +1,16 @@
+PODS:
+  - AdFalconSDK (0.1.0)
+
+DEPENDENCIES:
+  - AdFalconSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AdFalconSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AdFalconSDK: ab4e589a4db5ca6dcdf17190ca22b94c45faf518
+
+PODFILE CHECKSUM: 2549c0832c0a72e7b670d290b0a5cea38ca547b5
+
+COCOAPODS: 1.2.0

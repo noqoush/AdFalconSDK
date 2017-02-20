@@ -1,0 +1,33 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CC70F5C082A0F0AA668F8EA2F717D6855B248018",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b137c1b6-12cb-4b59-b8b1-84c40503a38a++7542" : {
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b137c1b6-12cb-4b59-b8b1-84c40503a38a++7542" : 9223372036854775807,
+    "CC70F5C082A0F0AA668F8EA2F717D6855B248018" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E9DDA478-831F-43D5-8FDC-B54B2674A02A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b137c1b6-12cb-4b59-b8b1-84c40503a38a++7542" : "..\/..",
+    "CC70F5C082A0F0AA668F8EA2F717D6855B248018" : "AdFalconSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AdFalconSDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/AdFalconSDK.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/noqoush\/AdFalconSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC70F5C082A0F0AA668F8EA2F717D6855B248018"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/emad.ziyad@subversion.assembla.com\/svn\/adfalcon",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b137c1b6-12cb-4b59-b8b1-84c40503a38a++7542"
+    }
+  ]
+}
