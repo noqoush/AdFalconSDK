@@ -30,6 +30,7 @@ SDK for AdFalcon.
 
   s.ios.deployment_target = '8.0'
 
+  s.ios.vendored_frameworks = 'Frameworks/AdFalconSDK.framework'
 #s.source_files = 'AdFalconSDK/Classes/**/*'
   
   # s.resource_bundles = {
@@ -39,4 +40,5 @@ SDK for AdFalcon.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
 end
