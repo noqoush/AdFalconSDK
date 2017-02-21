@@ -30,7 +30,7 @@ SDK for AdFalcon.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AdFalconSDK/Classes/**/*'
+#s.source_files = 'AdFalconSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'AdFalconSDK' => ['AdFalconSDK/Assets/*.png']
