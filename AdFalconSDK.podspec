@@ -31,6 +31,8 @@ SDK for AdFalcon.
   s.ios.deployment_target = '8.0'
 
   s.ios.vendored_frameworks = 'Frameworks/AdFalconSDK.framework'
+
+    s.requires_arc          = true
 #s.source_files = 'AdFalconSDK/Classes/**/*'
   
   # s.resource_bundles = {
