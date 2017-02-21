@@ -1,0 +1,6 @@
+framework module AdFalconSDK {
+  umbrella header "AdFalconSDK.h"
+
+  export *
+  module * { export * }
+}

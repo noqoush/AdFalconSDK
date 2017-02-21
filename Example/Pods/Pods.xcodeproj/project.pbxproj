@@ -11,8 +11,7 @@
 		3C71C32743F546AB5585B946CE207003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3CBAE25B4B86D29A3F2633C78D4C4808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8A74F2E032E5DDC44AD274F16AD3C030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		953853E11E5B4A6C007D041E /* MYViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 953853DF1E5B4A6C007D041E /* MYViewController.h */; };
-		953853E21E5B4A6C007D041E /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953853E01E5B4A6C007D041E /* MYViewController.m */; };
+		953854271E5C3746007D041E /* AdFalconSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953854261E5C3746007D041E /* AdFalconSDK.framework */; };
 		B4A8F153E3365EC41D3E0D45D795FF03 /* AdFalconSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A2FAE0868C56DB8B8592D406D1C47 /* AdFalconSDK-dummy.m */; };
 		BB878F6AB298ECD3925484C296D9D173 /* Pods-AdFalconSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C2655FCB02FA72EBFE01A36E4709E6 /* Pods-AdFalconSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC990915CF97B3421C32687FDF1C364C /* AdFalconSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E032639FB3DB054BED1FF4EBEBD01F7D /* AdFalconSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,8 +44,7 @@
 		809A6F0CD30E8925AB42FF2B44647171 /* Pods-AdFalconSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AdFalconSDK_Example.modulemap"; sourceTree = "<group>"; };
 		8CE52C5B4D5660A55F793951397E72E3 /* AdFalconSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdFalconSDK.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		953853DF1E5B4A6C007D041E /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYViewController.h; path = Controllers/MYViewController.h; sourceTree = "<group>"; };
-		953853E01E5B4A6C007D041E /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYViewController.m; path = Controllers/MYViewController.m; sourceTree = "<group>"; };
+		953854261E5C3746007D041E /* AdFalconSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdFalconSDK.framework; path = ../AdFalconSDK.framework; sourceTree = "<group>"; };
 		96C2655FCB02FA72EBFE01A36E4709E6 /* Pods-AdFalconSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdFalconSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		9E487A2DFA0BEE640713BD3ABE0CE1F9 /* Pods-AdFalconSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdFalconSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		AF8443D4648E37FFAC45A779060EEFDE /* Pods-AdFalconSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdFalconSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -72,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A74F2E032E5DDC44AD274F16AD3C030 /* Foundation.framework in Frameworks */,
+				953854271E5C3746007D041E /* AdFalconSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +133,7 @@
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				953854261E5C3746007D041E /* AdFalconSDK.framework */,
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
@@ -171,8 +171,6 @@
 		A6CE96ABC80A661F909A8546320CEBE0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				953853DF1E5B4A6C007D041E /* MYViewController.h */,
-				953853E01E5B4A6C007D041E /* MYViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -233,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC990915CF97B3421C32687FDF1C364C /* AdFalconSDK-umbrella.h in Headers */,
-				953853E11E5B4A6C007D041E /* MYViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				953853E21E5B4A6C007D041E /* MYViewController.m in Sources */,
 				B4A8F153E3365EC41D3E0D45D795FF03 /* AdFalconSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
